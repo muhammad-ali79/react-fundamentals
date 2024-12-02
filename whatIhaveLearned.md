@@ -14,3 +14,10 @@
 - passing(spreading) Props in componets
 - nesting JSX
 - using Fragments to avoide Divs
+
+## 4. custom components
+
+- rendring markup with functionCalls
+- rendring markup with ReactsCreateElement
+- rendring markup with JSX
+- using Props inside JSX

@@ -8,16 +8,26 @@
 
 			const rootElement = document.getElementById('root')
 
+			/* Uppercase First Letter: Treated as a component reference.
+
+				Lowercase First Letter: Treated as a DOM element string.
+
+				Hyphen (-): Treated as a custom element, regardless of casing.
+
+				Property Access (.): Treated as object property lookup.
+
+				Square Brackets ([]): Not valid in JSX for defining component names. Use React.createElement for such cases. 
+				*/
+
 			// 🐨 capitalize the name of this function
-			function message({ children }) {
+			function Message({ children }) {
 				return <div className="message">{children}</div>
 			}
 
 			const element = (
 				<div className="container">
 					{/* 🐨 swap these for JSX with Message components */}
-					{React.createElement(message, { children: 'Hello World' })}
-					{React.createElement(message, { children: 'Goodbye World' })}
+					<Message>Hell Yeah</Message>
 				</div>
 			)
 
