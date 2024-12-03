@@ -104,7 +104,7 @@ function OnboardingForm() {
 
 // 🐨 accept the resetErrorBoundary prop here and call it when the user clicks
 // the "Try again" button
-function ErrorFallback({ error }: FallbackProps) {
+function ErrorFallback({ error, resetErrorBoundary }: FallbackProps) {
 	return (
 		<div role="alert">
 			There was an error:{' '}
@@ -113,6 +113,7 @@ function ErrorFallback({ error }: FallbackProps) {
 				🐨 Add a "Try again" button. Assign the resetErrorBoundary function to its onClick prop. 
 				💰 For more on the onClick event handler, visit: 📜 https://react.dev/learn/responding-to-events
 			*/}
+			<button onClick={resetErrorBoundary}>Try Again</button>
 		</div>
 	)
 }

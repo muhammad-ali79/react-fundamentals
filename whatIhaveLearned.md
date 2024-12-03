@@ -51,3 +51,9 @@ used (*multipart/form-data*) for effectively working when using files
 
 - use different inputs fields (*checkbox, select, radio, hidden*)
 - learn to provide default value in
+
+## 9 . Error Boundaries
+
+- handling errors in entire componets using errorBoundary
+- handling on handlers using show boundary
+- showing a reset button to reset the error and again show the UI
