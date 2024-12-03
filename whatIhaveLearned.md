@@ -57,3 +57,8 @@ used (*multipart/form-data*) for effectively working when using files
 - handling errors in entire componets using errorBoundary
 - handling on handlers using show boundary
 - showing a reset button to reset the error and again show the UI
+
+## 10. using keys
+
+- using keys when rendring elements from list of arrays
+- reseting state by changing the key

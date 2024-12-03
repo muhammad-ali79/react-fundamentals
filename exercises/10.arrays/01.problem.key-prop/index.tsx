@@ -28,10 +28,7 @@ function App() {
 			</button>
 			<ul>
 				{items.map(item => (
-					// 🐨 add a key prop to the <li> below. Set it to item.id
-					// 💣 you can then delete this eslint-disable line:
-					// eslint-disable-next-line react/jsx-key
-					<li>
+					<li key={item.id}>
 						<button onClick={() => removeItem(item.id)}>remove</button>{' '}
 						<label htmlFor={`${item.id}-input`}>{item.value}</label>{' '}
 						<input id={`${item.id}-input`} defaultValue={item.value} />
