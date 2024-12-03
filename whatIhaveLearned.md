@@ -46,3 +46,8 @@
 - used (Post insted of GET=> for not exposing data in the searchBar) and
 used (*multipart/form-data*) for effectively working when using files
 - use React action props on forms to hand the submission instead of a seperate handler.
+
+## 8. Inputs
+
+- use different inputs fields (*checkbox, select, radio, hidden*)
+- learn to provide default value in
