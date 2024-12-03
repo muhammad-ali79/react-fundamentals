@@ -30,3 +30,10 @@
 - making props and proprties(?) optional with default prameters
 - casting objects keys and values from other types using Recored
 - using satisfies operator
+
+## 6. Styling
+
+- using className and style props to style the elements
+- make componets for resuing styles
+- used React.componentsProps<div> to give all the props intellecene on a html div element
+- used typescritp (&) to combine types
