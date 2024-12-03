@@ -1,6 +1,6 @@
 # 1. Hello World
 
-- create Element (js)
+- createElement (js)
 
 ## 2. raw React Apis
 
@@ -21,3 +21,12 @@
 - rendring markup with ReactsCreateElement
 - rendring markup with JSX
 - using Props inside JSX
+
+## 5. Typescript
+
+- typing Props
+- narrowing types with Union(|)
+- deriving types from other other objects and using (keyof , typeof)
+- making props and proprties(?) optional with default prameters
+- casting objects keys and values from other types using Recored
+- using satisfies operator

@@ -4,12 +4,12 @@ type OperationFn = (left: number, right: number) => number
 // 💣 delete the Operator type
 type Operator = '+' | '-' | '/' | '*'
 // 🦺 remove the type cast
-const operations: Record<Operator, OperationFn> = {
+const operations = {
 	'+': (left, right) => left + right,
 	'-': (left, right) => left - right,
 	'*': (left, right) => left * right,
 	'/': (left, right) => left / right,
-}
+} satisfies Record<Operator, OperationFn>
 // 🦺 add "satisfies" here to ensure operations satisfies a Record with string keys and OperationFn values
 
 type CalculatorProps = {

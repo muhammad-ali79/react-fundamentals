@@ -10,7 +10,12 @@ const operations = {
 type CalculatorProps = {
 	left: number
 	// 🐨 derive these values from the keys of the operations object
-	operator: '+' | '-' | '*' | '/'
+
+	/* typeof to get the types of a variables
+
+	keyof to get the unione-ed(name | age) of objects */
+
+	operator: keyof typeof operations
 	right: number
 }
 function Calculator({ left, operator, right }: CalculatorProps) {
